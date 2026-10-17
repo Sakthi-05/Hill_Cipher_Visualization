@@ -5,7 +5,7 @@ import {
   RotateCcw, ShieldCheck, Sparkles, UnlockKeyhole, WandSparkles
 } from "lucide-react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const API_URL = "https://hill-cipher-api.onrender.com";
 const PRESETS = {
   "2": [[3, 3], [2, 5]],
   "3": [[6, 24, 1], [13, 16, 10], [20, 17, 15]]
